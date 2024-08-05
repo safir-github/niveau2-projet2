@@ -4,7 +4,7 @@ Bienvenue dans **My React Project** ! Ce projet a été initialisé avec [Create
 
 ## En direct
 
-Visite le site en direct ! : https://safir-github.github.io/portfolio
+Visite le site en direct ! : https://safir-github.github.io/niveau2-projet2/
 
 ## Aperçu
 
