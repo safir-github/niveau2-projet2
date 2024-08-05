@@ -1,0 +1,159 @@
+
+
+.contact-container {
+    padding: 30px 0;
+    background: url('../../public/images/test.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.contact-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 105, 255, 0.5);
+    z-index: 0.5;
+}
+
+.div-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.services-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.img-content {
+    background: url('../../public/images/test.jpg') no-repeat center center/cover;
+    height: 10vh;
+}
+
+.services-container h1 {
+    padding-top: 1em;
+}
+
+.services-container h2 {
+    font-size: 1em;
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+
+.services-container h2::after {
+    content: '';
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+    border-bottom: 4px solid blue;
+    margin-top: 15px;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+}
+
+
+.div-services-content {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+
+  .services-container {
+    text-align: center;
+    background-color: rgb(245, 245, 250);
+  }
+  
+ 
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .service-icon {
+    color: #0069ff;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+
+
+.text-center {
+    background-color: #fff;
+}  
+
+
+.card {
+    background-color: #fff;
+}
+
+.img-services {
+    height: 15vh;
+   
+}
+
+
+.div-img-portfolio {
+
+    height: 15vh;
+    background: url('../../public/images/bande-blue.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    }
+
+
+
+.card {
+  transition: transform 0.2s; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.card-body .service-icon {
+  transition: color 0.3s;
+}
+
+.card:hover .service-icon {
+  color: #cde1f8; 
+}

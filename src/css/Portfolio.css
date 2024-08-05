@@ -1,0 +1,44 @@
+
+
+
+
+
+  .portfolio-container {
+    text-align: center;
+    background-color: rgb(245, 245, 250);
+  }
+  
+
+  .portfolio-container h1 {
+    padding-top: 1em;
+}
+
+.portfolio-container h2 {
+    font-size: 1em;
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+
+.portfolio-container h2::after {
+    content: '';
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 4px solid blue;
+    margin-top: 15px;
+}
+
+
+
+.img-portfolio {
+  height: 15vh;
+  max-width: 100% !important;
+ 
+}
+
+.div-img-portfolio {
+  
+  height: 15vh;
+  background: url('../../public/images/test.jpg');
+}

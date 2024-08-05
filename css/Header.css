@@ -1,0 +1,12 @@
+/* Header.css */
+.navbar-custom {
+    background-color: #444 !important;
+}
+
+.navbar-custom img {
+    width: 50px;
+}
+
+.nav-link.active {
+    color: #fff !important;  /* Change la couleur du lien actif si nécessaire */
+}
