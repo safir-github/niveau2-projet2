@@ -2,6 +2,10 @@
 
 Bienvenue dans **My React Project** ! Ce projet a été initialisé avec [Create React App](https://github.com/facebook/create-react-app).
 
+## En direct
+
+Visite le site en direct ! : https://safir-github.github.io/portfolio
+
 ## Aperçu
 
 **My React Project** est une application web développée en React qui [décrivez brièvement ce que fait votre application, par exemple : "fournit une plateforme de blogging", "affiche des informations météorologiques", etc.].
