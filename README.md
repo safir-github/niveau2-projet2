@@ -2,6 +2,10 @@
 
 Bienvenue dans **My React Project** ! Ce projet a été initialisé avec [Create React App](https://github.com/facebook/create-react-app).
 
+## (IMPORTANT)
+
+Certaines images ont un problème de chargement dans la version sur GitHub Pages, mais en local il n'y a pas ce soucis.
+
 ## En direct
 
 Visite le site en direct ! : https://safir-github.github.io/niveau2-projet2/
