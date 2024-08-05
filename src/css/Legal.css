@@ -1,0 +1,46 @@
+.legal-container {
+    text-align: center;
+}
+
+
+.h1-legal {
+    padding-top: 1em;
+}
+
+
+.h1-legal::after {
+    content: '';
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+    border-bottom: 4px solid blue;
+    margin-top: 15px;
+}
+
+.h2-legal {
+    font-size: 1em;
+    position: relative;
+    display: none;
+    color: black;
+}
+
+.h2-legal::after {
+    content: '';
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+    border-bottom: 4px solid blue;
+    margin-top: 15px;
+}
+
+.accordion {
+    margin-top: 4em;
+}
+
+.accordion-body {
+    text-align: start;
+}
+
+.span-blue {
+    color: #0d6efd;
+}
